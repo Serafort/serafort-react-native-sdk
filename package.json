@@ -2,6 +2,7 @@
   "name": "@serafort/react-native",
   "version": "0.1.0",
   "type": "module",
+  "packageManager": "pnpm@10.32.1",
   "description": "React Native & Expo authentication provider, hooks, secure storage, and wildcard RBAC for Serafort IAM.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
