@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+.turbo/
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Expo
+.expo/
+.expo-shared/
+
+# Native build artifacts (bare workflow / prebuild)
+ios/Pods/
+ios/build/
+android/.gradle/
+android/build/
+android/app/build/
+*.jsbundle
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# pnpm
+.pnpm-store/
